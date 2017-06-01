@@ -1,0 +1,65 @@
+name: BitUtils
+main: TestID.bitutils.BitUtils
+version: 1.0
+author: Bit / TBC123
+commands:
+   bit:
+      description: Demo command
+      usage: /Bit
+      permission: BitUtils.bit
+      permission-message: You don't have <permission>
+   tpa:
+      description: Request teleportation to a specified player
+      permission: BitUtils.tpa
+      permission-message: You don't have <permission>
+   tpaccept:
+      description: Accepts a teleportation request
+      permission: BitUtils.tpaccept
+      permission-message: You don't have <permission>
+   tpdeny:
+      description: Denies a teleportation request
+      permission: BitUtils.tpdeny
+      permission-message: You don't have <permission>
+   buildfly:
+      description: Toggles flight (For building)
+      permission: BitUtils.fly
+      permission-message: You don't have <permission>
+   sethome:
+      description: Sets a home
+      permission: BitUtils.sethome
+      permission-message: You don't have <permission>
+   home:
+      description: Teleports to set home
+      permission: BitUtils.home
+      permission-message: You don't have <permission>
+   back:
+      description: Teleports player to their last location
+      permission: BitUtils.back
+      permission-message: You don't have <permission>
+   setwarp:
+      description: Sets a warp point
+      permission: BitUtils.setwarp
+      permission-message: You don't have <permission>
+   warp:
+      description: Teleports player to specified warp
+      permission: BitUtils.warp
+      permission-message: You don't have <permission>
+   delwarp:
+      description: Deletes a warp
+      permission: BitUtils.delwarp
+      permission-message: You don't have <permission>
+permissions:
+   BitUtils.*:
+      description: Gives access to all BitUtils commands
+      children:
+         BitUtils.bit: true
+         BitUtils.tpa: true
+         BitUtils.tpaccept: true
+         BitUtils.tpdeny: true
+         BitUtils.fly: true
+         BitUtils.sethome: true
+         BitUtils.home: true
+         BitUtils.back: true
+         BitUtils.setwarp: true
+         BitUtils.warp: true
+         BitUtils.delwarp: true
