@@ -1,6 +1,8 @@
 # bitutils
 A lightweight utility plugin for Minecraft
 
+This plugin requires that you build against the Spigot API.
+
 Disclaimer: This plugin requires that you install PermissionsBukkit.
 
 ---
