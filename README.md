@@ -1,2 +1,2 @@
 # bitutils
-A lightweight utility plugin for Minecraft.
+A lightweight utility plugin for Minecraft
